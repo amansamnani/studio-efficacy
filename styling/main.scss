@@ -1,12 +1,11 @@
 
-
 .content{
   display: flex;
   align-items: center;
   flex-direction: column;
 
   .illustration{
-    margin-bottom: 108px;
+    margin-bottom: 64px;
   }
 
   .services{
@@ -14,6 +13,7 @@
     width: 40vw;
     justify-content: space-around;
     min-width: 350px;
+    flex-wrap: wrap;
   }
   .service{
     display: flex;
@@ -32,7 +32,7 @@
   }
   .product{
     img{
-    width: 78px;
+    width: 88px;
     }
   }
 }
@@ -43,7 +43,7 @@
     cursor: pointer;
   }
 
-
+  
 
 
 

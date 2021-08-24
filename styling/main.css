@@ -12,7 +12,7 @@
 }
 
 .content .illustration {
-  margin-bottom: 108px;
+  margin-bottom: 64px;
 }
 
 .content .services {
@@ -23,6 +23,8 @@
   -ms-flex-pack: distribute;
       justify-content: space-around;
   min-width: 350px;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 }
 
 .content .service {
@@ -47,7 +49,7 @@
 }
 
 .content .product img {
-  width: 78px;
+  width: 88px;
 }
 
 .service:hover {

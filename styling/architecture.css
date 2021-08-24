@@ -34,11 +34,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  .team-icon {
-    width: 50px;
-  }
   .container {
-    margin-top: 16px;
+    margin-top: 8px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
