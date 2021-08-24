@@ -63,7 +63,8 @@
     margin-left: 8px;
   }
   .member img {
-    width: 84px;
+    width: 64px;
+    height: 64px;
   }
 }
 
@@ -170,6 +171,7 @@ nav {
 /*Stying for small screens*/
 @media screen and (max-width: 1100px) {
   nav {
+    height: 4rem;
     position: fixed;
     z-index: 100;
   }
@@ -188,9 +190,10 @@ nav {
   .nav-links {
     position: fixed;
     top: 0px;
+    left: 0px;
     background: #272728;
     height: 60vh;
-    width: 100%;
+    width: 100vw;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
