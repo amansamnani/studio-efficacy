@@ -34,11 +34,8 @@
 }
 
 @media screen and (max-width: 500px) {
-  .team-icon {
-    width: 50px;
-  }
   .container {
-    margin-top: 16px;
+    margin-top: 0px;
     -webkit-box-orient: vertical;
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
@@ -59,14 +56,14 @@
     -webkit-box-align: center;
         -ms-flex-align: center;
             align-items: center;
-    margin: 24px;
+    margin: 18px;
   }
   .member .pseudo {
     margin-left: 8px;
   }
   .member img {
-    width: 84px;
-    height: 84px;
+    width: 70px;
+    height: 70px;
   }
 }
 

@@ -15,7 +15,11 @@
 }
 @media screen and (max-width: 412px){
   .container {
-      max-width: 270px;
+    margin-top: 64px;
+      max-width: 250px;
+      .portfolio-menu{
+        min-width: 340px;
+      }
   }
 }
 
