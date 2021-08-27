@@ -2,10 +2,20 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
   width: 95vw;
   -webkit-box-pack: space-evenly;
       -ms-flex-pack: space-evenly;
           justify-content: space-evenly;
+}
+
+.hero input {
+  text-align: start;
+}
+
+.hero input:focus {
+  border-color: #272728;
 }
 
 .hero .small-block {
@@ -25,7 +35,7 @@
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
-  margin: 8px;
+  margin: 16px;
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
@@ -43,10 +53,13 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
   color: #272728;
   text-align: center;
   background-color: #f2f5f7;
-  max-width: 230px;
+  width: 230px;
   height: 343px;
 }
 
@@ -66,6 +79,46 @@
   padding: 8px;
   font-size: 20px;
   text-align: center !important;
+}
+
+.big-block {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-block .head {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin: 16px;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.big-block .head img {
+  margin: 8px;
+}
+
+button {
+  font-weight: 500;
+  font-size: 16px;
+  padding: 12px 64px;
+  cursor: pointer;
+  color: #f2f5f7;
+  background-color: #272728;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  border: none;
 }
 
 @media screen and (max-width: 900px) {
