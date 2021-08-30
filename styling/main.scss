@@ -5,7 +5,7 @@
   flex-direction: column;
 
   .illustration{
-    margin-bottom: 64px;
+    margin-bottom: 56px;
   }
 
   .services{
@@ -43,7 +43,19 @@
     cursor: pointer;
   }
 
-  
+  @media screen and (max-width: 950px){
+    .service{      
+      img{
+        width: 58px !important;
+      }
+      
+    }
+    .product{
+      img{
+      width: 70px !important;
+      }
+    }
+  }  
 
 
 

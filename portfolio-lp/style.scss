@@ -10,31 +10,27 @@ body {
 }
 
 /** Below CSS is completely optional **/
+
 .gallery-item {
   width: 200px;
   padding: 5px;
-  cursor: pointer;
+  cursor:pointer;
 }
 
-.bottom-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
+.bottom-nav{
   display: flex;
   width: 70%;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  justify-content: space-between;
   font-size: 20px;
   margin: 48px 0px;
 }
 
-@media screen and (max-width: 900px) {
-  h1 {
+@media screen and (max-width: 900px){
+  h1{
     display: none;
     font-size: 48px;
   }
-  .bottom-nav {
+  .bottom-nav{
     font-size: 32px;
   }
 }
-/*# sourceMappingURL=style.css.map */
