@@ -1,0 +1,35 @@
+body {
+  padding: 0px;
+  background-color: #272728;
+  color: white;
+  min-height: 100vh;
+}
+
+.header .lead {
+  max-width: 620px;
+}
+
+/** Below CSS is completely optional **/
+
+.gallery-item {
+  width: 200px;
+  padding: 5px;
+  cursor:pointer;
+}
+
+.bottom-nav{
+  display: flex;
+  width: 70%;
+  justify-content: space-between;
+  font-size: 20px;
+  margin: 48px 0px;
+}
+
+@media screen and (max-width: 900px){
+  h1{
+    font-size: 48px;
+  }
+  .bottom-nav{
+    font-size: 32px;
+  }
+}
